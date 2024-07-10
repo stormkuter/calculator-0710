@@ -4,6 +4,7 @@ from calc import Calc
 
 
 class TestCalc(TestCase):
+
     def setUp(self):
         super().setUp()
         self.sut = Calc()
@@ -26,3 +27,7 @@ class TestCalc(TestCase):
         b = 2
         expected_result = -2
         self.assertEqual(expected_result, self.sut.getDivide(a, b))
+
+    def test_sum(self):
+        sut = Calc()
+        self.assertEqual(5, sut.getSum(2, 3))
