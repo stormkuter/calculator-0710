@@ -1,4 +1,8 @@
 class Calc:
+  
+    def getMinus(self, a, b):
+        return a - b
+      
     def getZegop(self, num_1, num_2):
         return num_1 ** num_2
     
@@ -15,3 +19,4 @@ class Calc:
             
     def getSum(self, a, b):
         return a + b
+
