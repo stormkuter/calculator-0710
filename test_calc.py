@@ -4,6 +4,10 @@ from calc import Calc
 
 
 class TestCalc(TestCase):
+    def test_getZegop(self):
+        calc = Calc()
+        self.assertEqual(8, calc.zegop(2, 3))
+        self.assertEqual(9, calc.zegop(3, 2))
 
     def setUp(self):
         super().setUp()
