@@ -20,3 +20,5 @@ class Calc:
     def getSum(self, a, b):
         return a + b
 
+    def getSumSum(self, a, b, c):
+        return a + b + c
