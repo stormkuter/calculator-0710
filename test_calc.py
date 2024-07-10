@@ -10,5 +10,5 @@ class TestCalc(TestCase):
                              (1, 2, 3, 6),
                              (2, 2, 2, 6)]:
             with self.subTest(f"{a}+{b}+{c}={ans}"):
-                ret = calc.calc_sum_sum(a, b, c)
+                ret = calc.getSumSum(a, b, c)
                 self.assertEqual(ret, ans)
