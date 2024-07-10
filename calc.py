@@ -1,5 +1,8 @@
 class Calc:
   
+    def gop(self, numberA, numberB):
+        return numberA * numberB
+    
     def getMinus(self, a, b):
         return a - b
       
